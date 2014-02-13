@@ -10,6 +10,6 @@ I am using a 433MHz reciever and transmiter from proto-pic
 But should work with any.
 
 The data out from the receiver is put into analog in A0 pin, and the data in to the transmiter is from digital pin 13.
-I found my reciever worked best with a 3.3V power supply, and a pull down resistor
+I found my reciever worked best with a 3.3V power supply, and a pull down resistor.
 
 Control messages are sent via Serial, to cause a capture or replay and to save/load the signals from EEPROM memory.
